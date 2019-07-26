@@ -8,7 +8,7 @@ SOFA（这个缩写沙发板凳么？不喜欢这个名字。。真的忍不住�
 2、官方给的快速搭建微服务的例子，跟着里面的步骤走，先把服务跑起来
 https://www.sofastack.tech/guides/sofastack-quick-start/
 3、demo中的配置只是例子，需要自行替换配置信息，我们先不关心其他内容，先由rpc调用入手，那么先修改application.properties  内容：
- # 1、添加服务注册中心地址
+ 1、添加服务注册中心地址
 com.alipay.sofa.rpc.registry.address=sofa://127.0.0.1:9603，
 
 记得demo中有两个工程，模拟的是服务使用方和提供方，分别都替换掉；
